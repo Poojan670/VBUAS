@@ -1,0 +1,7 @@
+digraph "classes" {
+charset="utf-8"
+rankdir=BT
+"0" [label="{PaMacCoreStreamInfo|paMacCoreChangeDeviceParameters\lpaMacCoreConversionQualityHigh\lpaMacCoreConversionQualityLow\lpaMacCoreConversionQualityMax\lpaMacCoreConversionQualityMedium\lpaMacCoreConversionQualityMin\lpaMacCoreFailIfConversionRequired\lpaMacCoreMinimizeCPU\lpaMacCoreMinimizeCPUButPlayNice\lpaMacCorePlayNice\lpaMacCorePro\l|get_channel_map()\lget_flags()\l}", shape="record"];
+"1" [label="{PyAudio|\l|close()\lget_default_host_api_info()\lget_default_input_device_info()\lget_default_output_device_info()\lget_device_count()\lget_device_info_by_host_api_device_index()\lget_device_info_by_index()\lget_format_from_width()\lget_host_api_count()\lget_host_api_info_by_index()\lget_host_api_info_by_type()\lget_sample_size()\lis_format_supported()\lopen()\lterminate()\l}", shape="record"];
+"2" [label="{Stream|\l|close()\lget_cpu_load()\lget_input_latency()\lget_output_latency()\lget_read_available()\lget_time()\lget_write_available()\lis_active()\lis_stopped()\lread()\lstart_stream()\lstop_stream()\lwrite()\l}", shape="record"];
+}
